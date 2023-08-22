@@ -14,7 +14,7 @@ randomImgs = () => {
       let RandomNumber = Math.floor(Math.random() * imageArray.length);
 
       landingPage.style.backgroundImage = 'url("/images/' + imageArray[RandomNumber] + '")'
-    }, 4000)
+    }, 2000)
 
   }
 }

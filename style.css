@@ -536,6 +536,11 @@ body {
     border: 1px solid #ccc;
     margin: 4px;
     cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .gallery .images-box img:hover{
+    scale: 1.1;
   }
 
 /* Create Div Img */
@@ -790,6 +795,11 @@ body {
   .features .feat-box img {
     width: 96px;
     max-width: 100%;
+    transition: 0.5s;
+  }
+
+  .features .feat-box img:hover{
+    scale: 1.2;
   }
   
   .features .feat-box h4 {
@@ -868,9 +878,16 @@ body {
   }
   
   .testimonials .ts-box {
-    width: calc(98% / 3);
+    width: calc(90% / 3);
     background-color: #fff;
     padding: 20px;
+    transition: 0.5s;
+    margin: 1rem;
+    height: 350px;
+  }
+
+  .testimonials .ts-box:hover{
+    scale: 1.1;
   }
   
   @media (max-width:767px) {
@@ -908,6 +925,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     gap: 6%;
+    margin-top: 80px;
   }
   
   @media (max-width:991px) {
@@ -936,6 +954,7 @@ body {
   
   .testimonials .ts-box .person-info h4 {
     margin: 0;
+    color: var(--main-color);
   }
   
   .testimonials .ts-box .person-info p {
