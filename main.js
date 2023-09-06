@@ -13,7 +13,7 @@ randomImgs = () => {
     backgroundInterval = setInterval(() => {
       let RandomNumber = Math.floor(Math.random() * imageArray.length);
 
-      landingPage.style.backgroundImage = 'url("/images/' + imageArray[RandomNumber] + '")'
+      landingPage.style.backgroundImage = 'url("images/' + imageArray[RandomNumber] + '")'
     }, 2000)
 
   }
